@@ -1,0 +1,26 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Local Claude/Codex state
+CLAUDE.local.md
+.claude/settings.local.json
+.codex-log/
+.codex/sessions/
+
+# Dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.turbo/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/settings.json
