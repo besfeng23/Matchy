@@ -14,11 +14,11 @@ Claude Code reads this file at session start. Keep root instructions short and p
 
 ### Mandatory skills by domain
 
-- Billing or credits: `/credit-subscription-engine` and `/database-ledger-design`.
-- Payments/webhooks: `/yoursafe-payments`.
+- Entitlements, plans, pricing, or account state: `/entitlement-engine` and `/database-ledger-design`.
+- Yoursafe/provider events: `/yoursafe-payments`.
 - Chat queue/moderators: `/moderator-operations`.
 - Memory/events/summaries: `/pandora-memory`.
-- Email/deliverability: `/smtp-deliverability-warmup`.
+- Email/deliverability: `/email-deliverability`.
 - Auth/RLS/privacy: `/security-privacy-rls`.
 - UI: `/ui-ux-conversion`.
 - Final review: `/qa-acceptance-testing` and `/repo-execution-discipline`.
