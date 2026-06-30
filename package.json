@@ -1,0 +1,16 @@
+{
+  "name": "matchy",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "pnpm --filter @matchy/web dev",
+    "build": "pnpm --filter @matchy/web build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm --filter @matchy/web lint",
+    "test": "pnpm -r test",
+    "verify": "pnpm typecheck && pnpm lint && pnpm test && pnpm build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
